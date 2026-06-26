@@ -361,7 +361,7 @@ export default function Portfolio() {
             <div className="grid sm:grid-cols-3 gap-4 mb-10">
               {[
                 { icon: <IcoMail />, label: "Email", val: "udaykiranponnaganti6@gmail.com", href: "mailto:udaykiranponnaganti6@gmail.com" },
-                { icon: <IcoLinkedIn />, label: "LinkedIn", val: "linkedin.com/in/udaykiran", href: "https://www.linkedin.com/in/p-sai-uday-kiran-b5a243257/" },
+                { icon: <IcoLinkedIn />, label: "LinkedIn", val: "linkedin.com/in/udaykiran", href: "https://www.linkedin.com/in/ponnaganti-sai-uday-kiran-b2a0a7301/" },
                 { icon: <IcoGH size={20} />, label: "GitHub", val: "github.com/udaykiran1150", href: "https://github.com/udaykiran1150" },
               ].map(c => (
                 <a key={c.label} href={c.href} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 p-5 bg-white/3 border border-white/8 rounded-2xl hover:border-violet-500/40 hover:bg-violet-500/5 transition-all duration-300 group">
